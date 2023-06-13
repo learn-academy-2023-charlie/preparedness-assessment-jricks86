@@ -9,7 +9,7 @@ const App = () => {
   const [inputValue, setInputValue] = useState("");
   const [showModal, setShowModal] = useState(false);
 
-  let handleInputChange = (event) => { 
+  const handleInputChange = (event) => { 
     setInputValue(event.target.value);
   }
 

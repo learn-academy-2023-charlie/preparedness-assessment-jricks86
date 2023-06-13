@@ -1,22 +1,16 @@
-import React from "react"
+import React from "react";
+import "../Modal.css"
 
-const ModalComponent = ({ message, onClose }) => {
-  // const modalMessage = `Hey, ${message}`;
-  
+function ModalComponent({ message, onClose }) {
   return (
-  <>
-
     <div className="modal">
       <div className="modal-content">
-          <h1>{message}</h1>
-          <body>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, ducimus.
-          </body>
+        <h1>{message}</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, ducimus.</p>
         <button onClick={onClose}>Close</button>
       </div>
     </div>
-  </>
-  )
+  );
 }
 
-export default ModalComponent
+export default ModalComponent;

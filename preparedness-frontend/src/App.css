@@ -1,25 +1,47 @@
-/* .entire-content {
-    display: flex;
-    justify-content: center;
-} */
+:root {
+    background-image: url("./assets/background-image.jpeg");
+}
 
-.h1 {
+.entire-content {
+    background-image: url("./assets/background-image.jpeg");
+    text-align: center;
+}
+
+h1 {
     color: white;
-    
+    font-size: 50px;
+    text-align: center; 
+}
+
+label {
+    color: white;
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .input {
-    display: flex;
-    justify-content: center;
-    color: white;
+    font-size: 18px;
     width: 50%;
+    margin: 0 auto;
+    display: block;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 6px;
     padding-bottom: 6px;
+    box-sizing: border-box;
+}
+
+.buttons button {
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #0dcaf0;
+    color: white;
+    border: none;
 }
 
 .buttons {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    padding: 20px;
 }
